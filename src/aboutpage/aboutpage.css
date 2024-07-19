@@ -1,0 +1,126 @@
+#about-root {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.about {
+    color: black;
+    padding-bottom: 50px;
+    font-size: smaller;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#about-header {
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-section-title {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: large;
+    font-weight: bold;
+}
+
+.about-highlight {
+    background-color: rgb(241, 235, 241);
+    padding: 5px;
+}
+
+.about-section-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: medium;
+    color: #474747;
+    font-weight: 350;
+}
+
+.about-two-column {
+    display: flex;
+}
+
+.about-photo-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 125px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+.about-photo {
+    width: 100%;
+}
+
+.about-team {
+    display: flex;   
+    justify-content: center;
+}
+
+.about-team-member {
+    display: "flex";
+    flex-direction: "column";
+    width: "150px";
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about-team-caption {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.bibtex {
+    background-color: #f1f1f1;
+}
+
+.about-papers {
+    display: flex;
+    justify-content: left;
+}
+
+.about-papers-description {
+    padding-left: 100px;
+}
+
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    padding: 2px;
+    font-size: small;
+}
+
+.about-google-form {
+    text-align: center;
+}
+
+.about-btn-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.about-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f50057;
+}
+
+.about-btn:hover {
+    background-color: #c60045;
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+#filterpage {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+    color: white;
+    flex: 2;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 999;
+}
+
+#list-view {
+    /* height: 100%;
+    width: 100%; */
+    background-color: rgb(220, 221, 216);
+}
+
+.animation-popup {
+    padding: 10px;
+}

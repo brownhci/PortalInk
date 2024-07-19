@@ -1,0 +1,60 @@
+.palette-card {
+    position: absolute;
+    bottom: 2em;
+    right: 10em;
+    z-index: 1000;
+
+    padding: 0.5em;
+    padding-top: 0em;
+
+    background-color: wheat;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+}
+
+.color-rows-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    /*padding: 0.5em;
+    border: 1px solid darkgrey;
+    border-radius: 2px;*/
+}
+
+.color-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-icon {
+    width: 18px;
+    height: 18px;
+    margin: 3px;
+
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+.color-icon:hover {
+    border: 1px solid rgb(72, 72, 72);
+}
+
+.palette-handle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+
+    cursor: move;
+}
+
+.palette-handle-line {
+    width: 100%;
+    height: 5px;
+    border-bottom: 1px solid darkgrey;
+    pointer-events: none
+}

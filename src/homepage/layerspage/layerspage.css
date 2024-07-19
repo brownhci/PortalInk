@@ -1,0 +1,147 @@
+#layerspage {
+    background-color: rgb(249, 249, 249);
+    outline: 1px dashed rgb(187, 187, 188);
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    z-index: 900; /* previously 999 */
+    position: relative;
+}
+
+.layer-card {
+    padding: 0.5em;
+    padding-right: 1em;
+    font-size: small;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 1.5px solid rgba(250, 239, 201, 0);
+    border-top: 1.5px solid rgba(250, 239, 201, 0);
+}
+
+.layer-name {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.layer-name:focus {
+    outline-color: #e435;
+    cursor: text;
+}
+
+.layer-selected {
+    background-color: rgb(250, 239, 201);
+}
+
+.layer-hovered-below {
+    border-bottom: 1.5px solid #f50057;
+}
+
+.layer-hovered-above {
+    border-top: 1.5px solid #f50057;
+}
+
+.layers-preview-wrapper {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.layer-icon {
+    cursor: pointer;
+}
+
+.layer-icon-disabled {
+    cursor: auto;
+    color: rgb(162, 162, 162);
+}
+
+.clickable-layers-icon {
+    cursor: pointer !important;
+}
+
+.unclickable-layers-icon {
+    cursor: auto;
+}
+
+#layers-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#layers-cards {
+    overflow-y: scroll;
+}
+
+#layer-filters-list {
+    padding-top: 5px;
+}
+
+.layer-popover {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    font-size: small;
+}
+
+.layer-filter-selected {
+    border:1px solid #f50057;
+}
+
+.layer-filter {
+    border:1px solid lightgray
+}
+
+#layer-setting-title {
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.layer-setting-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 8px;
+}
+
+.layer-setting-option-label {
+    font-size: smaller;
+    color: gray;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+.layers-depth {
+    font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.custom-audio-file-upload {
+    color: black;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: smaller;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    border-style: dashed;
+    border-width: thin;
+    border-color: rgb(219, 217, 217);
+}
+
+.custom-audio-file-upload:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.tiny-text {
+    font-size: x-small;
+}
+
+.label-top {
+    font-size: 12px;
+    color: gray;
+}

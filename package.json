@@ -1,0 +1,75 @@
+{
+  "name": "portalink",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@testing-library/jest-dom": "^5.11.8",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "file-saver": "^2.0.5",
+    "firebase": "^8.6.8",
+    "path-that-svg": "^1.2.4",
+    "prismjs": "^1.28.0",
+    "rc-knob": "^1.0.1",
+    "re-base": "^4.0.0",
+    "react": "^17.0.1",
+    "react-color": "^2.19.3",
+    "react-device-detect": "^1.15.0",
+    "react-dom": "^17.0.1",
+    "react-flow-renderer": "^9.6.11",
+    "react-helmet": "^6.1.0",
+    "react-hot-keys": "^2.7.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "react-simple-code-editor": "^0.11.0",
+    "simplify-js": "^1.2.4",
+    "svg-path-to-polygons": "^0.1.0",
+    "svg.filter.js": "^2.0.2",
+    "svg.js": "^2.7.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx",
+      "quiet": false,
+      "legacyWatch": true,
+      "delay": 2500,
+      "runOnChangeOnly": false
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.16.2",
+    "npm-watch": "^0.11.0"
+  }
+}

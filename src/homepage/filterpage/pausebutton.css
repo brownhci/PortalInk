@@ -1,0 +1,14 @@
+#toggleplay-group-container {
+    z-index: 999;
+    background-color: rgb(240, 238, 238);
+}
+
+#toggleplay-group {
+    background-color: white;
+    border-radius: 0;
+}
+
+#play-btn {
+    width: 35px;
+    height: 35px;
+}

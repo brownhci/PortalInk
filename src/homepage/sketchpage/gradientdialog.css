@@ -1,0 +1,118 @@
+.filter-card-btn {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1.5px;
+    /* border-color: rgb(148, 127, 127); */
+    border-color: #8f8f8f;
+    border-radius: 6px;
+    padding-right: 6px;
+    font-size: small;
+    font-weight: 500;
+    background-color: white;
+    display: flex;
+}
+
+.filter-card-btn:hover {
+    /* color:#e32359; */
+    /* border-color: #e32359; */
+    border:1.5px solid #e32359;
+}
+
+.pad-top {
+    padding-top: 10px;
+}
+
+.pad-top-small {
+    padding-top: 7px;
+}
+
+
+.pad-top-and-sides {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gradient-dialog .MuiDialog-scrollPaper {
+    align-items: center;
+    position: absolute !important;
+    left: 0px !important;
+    top: 0px !important;
+    justify-content: flex-start;
+    overflow: visible !important;
+    user-select: none;
+}
+
+.gradient-dialog .MuiDialog-container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.gradient-dialog .MuiDialog-paper {
+    margin: 0px;
+    margin-left: 25px;
+    overflow: visible;
+}
+
+.gradient-path-outline-guide {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.gradient-color-picker {
+    width: 100px;
+}
+
+.gradient-dialog-title {
+    cursor: move;
+}
+
+.gradient-type-button-txt {
+    font-size: 0.8em;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gradient-color-picker-display{
+    position: absolute;
+    z-index: 1500;
+}
+
+.gradient-order-shifting-btn {
+    margin-bottom: -5px !important;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.gradient-strength-slider {
+    margin-left: 5px;
+}
+
+.pad-bottom-small {
+    margin-bottom: 5px;
+}
+
+.gradient-order-tooltip {
+    margin-top: 5px !important;
+}
+
+#gradient-order-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    border: #d4d4d4 solid 1px;
+}
+
+#gradient-order-container-inner {
+    display: flex;
+    flex-direction: row;
+}

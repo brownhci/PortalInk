@@ -1,0 +1,66 @@
+.react-flow__node-customDefault {
+    cursor: pointer !important;
+    background-color: white;
+    color: rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: small;
+    border: 2px solid rgb(221, 221, 221);
+}
+
+.react-flow__node-customInput {
+    cursor: pointer !important;
+    background-color: white;
+    color: rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: small;
+    border: 2px solid rgb(221, 221, 221);
+}
+
+.react-flow__node-twoInput {
+    cursor: pointer !important;
+    background-color: white;
+    color: rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: small;
+    border: 2px solid rgb(221, 221, 221);
+}
+
+.react-flow__node-noInput {
+    cursor: pointer !important;
+    background-color: white;
+    color: rgb(221, 221, 221);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: small;
+    border: 2px solid rgb(221, 221, 221);
+}
+
+.selected {
+    border: 2px solid #f50057;
+    stroke: rgb(221, 221, 221) !important;
+    /* background-color: #292121;
+    color: white !important; */
+}
+
+path.react-flow__edge-path {
+    stroke: rgb(221, 221, 221);
+    stroke-width: 4;
+}
+
+#node-graph-topbar {
+    z-index: 999;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.node-graph-btn {
+    background-color: white;
+}
+
+#SourceGraphic {
+    background-color: rgb(100,100,100);
+}

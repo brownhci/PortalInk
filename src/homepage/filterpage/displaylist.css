@@ -1,0 +1,13 @@
+#list {
+    overflow: auto;
+}
+
+.filter-helper-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+    color: darkgray;
+    padding: 8%;
+}

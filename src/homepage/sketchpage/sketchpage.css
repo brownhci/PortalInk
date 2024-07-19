@@ -1,0 +1,125 @@
+#sketchpage {
+    width: 100%;
+    height: 100%;
+    flex: 7;
+}
+
+#svg {
+    width: 100%;
+    height: calc(100% - 48px);
+    position: relative;
+    z-index: 1;
+}
+
+#svg svg {
+    shape-rendering: optimizeSpeed;
+    overflow: visible !important;
+    clip-path: inset(0);
+    user-select: none;
+}
+
+.cursor {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border: 2px solid rgba(48, 47, 47, 0);
+    /* border: 2px solid rgb(48, 47, 47); */
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.no-cursor {
+    cursor: auto;
+}
+
+.default-cursor {
+    cursor: default;
+}
+
+.draw-cursor {
+    cursor: default;
+    /* cursor: none; */
+}
+
+.color-cursor {
+    cursor: url(../assets/drop-cursor.cur), auto;
+}
+
+.filter-cursor {
+    cursor: url(../assets/magicwand_cursor.cur), auto;
+}
+
+.erase-cursor {
+    cursor: url(../assets/eraser-cursor.cur), auto;
+}
+
+.pick-color-cursor {
+    cursor: url(../assets/eyedropper-cursor.cur), auto;
+}
+
+.waypoint-cursor {
+    cursor: url(../assets/waypoint-cursor.cur), auto;
+}
+
+.grab-cursor {
+    cursor: grab;
+}
+
+.grabbing-cursor {
+    cursor: grabbing !important;
+}
+
+.converter-card {
+    position: absolute;
+    bottom: 2em;
+    right: 10em;
+    z-index: 1000;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.converter-button {
+    margin-left: 1em !important;
+}
+
+.progress-bar {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.centered-label {
+    text-align: center;
+}
+
+.float-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: x-small;
+    color: gray;
+}
+
+.waypoint {
+    stroke: red;
+    stroke-width: 1px;
+    stroke-dasharray: 1 1;
+}
+
+#portal-preview-transition {
+    top: 0px;
+    left: 0px;
+    width: 1px;
+    height: 1px;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+    /* -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0) 50%);
+    mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0) 50%); */
+}

@@ -1,0 +1,45 @@
+#knob-wrapper {
+    padding: 20px;
+    width: 160px;
+}
+
+#knob {
+    pointer-events: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#knob-control-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.normalScale {
+    fill: #180094;
+    r: 1px;
+    transition: 450ms ease-in-out;
+}
+
+.state-slice:hover {
+    stroke: rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+.state-slice:active {
+    stroke: #FC5A96;
+}
+
+.animationSelected {
+    stroke: #FC5A96;
+}
+
+.animationSelected:hover {
+    stroke: #eb4b86;
+}
+
+.medium-text {
+    font-size: small;
+}

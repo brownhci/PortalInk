@@ -1,0 +1,12 @@
+#slider {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#slider-hidden {
+    display: none;
+}

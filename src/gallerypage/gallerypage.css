@@ -1,0 +1,115 @@
+
+
+#gallery-root {
+    /* background-color: rgb(61, 52, 52);; */
+    width: 100%;
+    height: 100%;
+    background-color: #f7eee5;
+    background-image: radial-gradient(#444cf7 0.5px, #f7eee5 0.5px);
+    background-size: 10px 10px;
+}
+
+.drawing-object {
+    filter: drop-shadow(5px 5px 4px #c2c2c2);
+    padding-bottom: 5px;
+}
+
+.drawing-object {
+    filter: drop-shadow(5px 5px 4px #c2c2c2);
+    padding-bottom: 5px;
+}
+
+.gallery {
+    padding: 30px;
+    height: 100vh; 
+    overflow: auto;
+}
+
+.gallery-text {
+    /* color: white; */
+    color: #474747;
+    padding-bottom: 50px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.gallery-items {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.gallery-items img {
+    shape-rendering: optimizeSpeed;
+    image-rendering: pixelated;
+    cursor: pointer;
+    height: 300px;
+
+}
+
+.gallery-items a {
+    /* color: white; */
+    color: #474747;
+}
+
+.gallery-image {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a59b9b;
+    background-color: white;
+}
+
+.drawing-caption {
+    /* color: white; */
+    color: #474747;
+    font-style: bold;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+}
+
+.pad-15 {
+    padding: 15px;
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: rgb(155, 155, 155);
+}
+
+.remix-from-gallery-btn {
+    appearance: none;
+    border: 1px solid #474747;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    list-style: none;
+    padding: 3px 10px;
+    margin-left: 5px;
+    position: relative;
+    user-select: none;
+    text-align: center;
+    color:#474747;
+  }
+  
+  .remix-from-gallery-btn:hover {
+    border: 1px solid #f50057;
+    text-decoration: none;
+    transition-duration: 0.1s;
+    color: #f50057;
+  }

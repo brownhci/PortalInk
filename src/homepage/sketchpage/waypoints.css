@@ -1,0 +1,146 @@
+.waypoint-card {
+    position: absolute;
+    bottom: 2em;
+    right: 18em;
+    z-index: 1000;
+
+    padding: 0.5em;
+    padding-top: 0em;
+
+    background-color: wheat;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+}
+
+.waypoint-rows-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    
+    /*padding: 0.5em;
+    border: 1px solid darkgrey;
+    border-radius: 2px;*/
+}
+
+.waypoint-preview-empty {
+    width: 100%;
+    height: 30px;
+    background-color: #d2d4d5;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.waypoint-list {
+    height: 216px;
+    width: 100px;
+    overflow-y:scroll
+}
+  
+.waypoint-preview-empty:hover {
+    border: 1px solid rgb(72, 72, 72);
+}
+
+.waypoint-preview-wrapper {
+    position: relative;
+}
+
+.waypoint-preview {
+    width: 68px;
+    height: 68px;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.waypoint-preview-disabled {
+    width: 68px;
+    height: 68px;
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+    cursor: not-allowed;
+    margin: 3px;
+    opacity: 0.4;
+}
+
+.waypoint-preview:hover {
+    border: 1px solid rgb(72, 72, 72);
+}
+  
+  
+.close-button {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    border: none;
+    color: #646464;
+    font-size: 8px;
+    height: 15px !important;
+    cursor: pointer;
+}
+
+.close-button-disabled {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    border: none;
+    color: #646464;
+    font-size: 8px;
+    height: 15px !important;
+    cursor: disabled;
+    opacity: 0.4;
+}
+  
+.close-button:hover {
+    color: #f50057;
+}
+
+.link-button {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    border: none;
+    color: #646464;
+    font-size: 8px;
+    height: 15px !important;
+    cursor: pointer;
+}
+
+.link-button:hover {
+    color: #f50057;
+}
+
+.link-button-active {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    border: none;
+    color: #646464;
+    font-size: 8px;
+    height: 15px !important;
+    cursor: pointer;
+    color: #f50057;
+}
+  
+.link-button-disabled {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    border: none;
+    color: #646464;
+    font-size: 8px;
+    height: 15px !important;
+    cursor: disabled;
+    opacity: 0.4;
+}
+  
+  
+  

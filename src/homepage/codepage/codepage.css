@@ -1,0 +1,22 @@
+#codepage {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(41, 33, 33);
+    color: white;
+    overflow: auto;
+    flex: 1;
+    position: relative;
+    z-index: 999;
+}
+
+.code-field {
+    border-radius: 3px;
+}
+
+.code-field textarea {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}

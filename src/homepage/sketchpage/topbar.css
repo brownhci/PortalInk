@@ -1,0 +1,190 @@
+#topbar {
+    text-align: left;
+    background-color: rgb(250,250,250);
+    position: relative;
+    z-index: 999;
+
+    border-right: 1px dashed rgb(187, 187, 188);;
+}
+
+#topbar-btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stroke-size-slider {
+    width: "14px";
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+label.import-label input[type="file"] {
+    position:absolute;
+    top: -1000px;
+}
+
+.import-label {
+    color: #6e6e6e;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 50%;
+}
+
+.import-label:hover {
+    background: rgba(240,240,240,255);
+    cursor: pointer;
+}
+
+#delete-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.tinier-padding {
+    padding-right: 5px;
+}
+
+#popup-text-clear {
+    padding: 20px 0 30px 0px;
+}
+
+#popup-text-clear-color {
+    padding: 20px 0 calc(30px - 16px) 5px;
+}
+
+.topbar-slider {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    width: 32px;
+    overflow: hidden;
+}
+
+/* pen stabilizer dialogue css */
+.stabilizerParameterContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.pt-1 {
+    padding-top: 1em;
+}
+
+.pr-1 {
+    padding-right: 1em;
+}
+
+.pl-1 {
+    padding-left: 1em;
+}
+
+.corner-arrow {
+    position: absolute;
+    right: -3px;
+    bottom: -3px;
+}
+
+.setting-icon {
+    position: absolute;
+    width: 30% !important;
+    height: 30% !important;
+    right: 8px;
+    bottom: 8px;
+}
+
+.circle-icon {
+    position: absolute;
+    width: 25% !important;
+    height: 25% !important;
+    right: 2px;
+    top: 8px;
+
+    /* fill: rgba(0, 0, 0, 0) !important; */
+    fill: rgb(103, 247, 90) !important;
+}
+
+.on-off-group {
+    width: 100%;
+}
+
+.full-width-button {
+    width: 100%;
+}
+
+.move-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20px;
+    
+}
+
+.move1-icon {
+    height: 20px !important;
+
+    position: relative;
+}
+
+.move2-icon {
+    height: 20px !important;
+
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.move-icon-shared-container {
+    width: 24px
+}
+
+.move-icon-opacity {
+    opacity: 0.38;
+}
+
+#color-picker {
+    
+}
+
+.flex-direc-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-direc-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vertical-setting-spacer {
+    padding-left: 1em;
+    margin-right: 2em;
+    border-right: 1px solid darkgrey;
+    height: 16em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.horizontal-1em-spacer {
+    height: 1em;
+}
+
+.no-pad-text {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 16px; /*only works for 16pt text*/
+    display: flex;
+    align-items: center;
+}
+
+.clear-palette-button {
+    width: 95%;
+    margin-top: 0.5em !important;
+}
+
+.flex-environ {
+    display: flex;
+}
